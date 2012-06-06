@@ -1,0 +1,966 @@
+TFirstViewController
+v7
+r0
+t303087126.313938
+cCheck dependencies
+cProcessInfoPlistFile /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/Info.plist FirstViewController-Info.plist
+cCompileXIB /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/MainWindow.xib
+cCompileXIB /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/FirstViewController.xib
+cCompileXIB /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/SecondViewController.xib
+cCompileXIB /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/ThirdViewController.xib
+cProcessPCH /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-ejsugczrshdakkglvbxredlvdivd/FirstViewController_Prefix.pch.gch FirstViewController_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/main.o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerAppDelegate.o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/SecondViewController.o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/ThirdViewController.o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/ThirdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController normal i386
+cGenerateDSYMFile /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app.dSYM /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController
+cTouch /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C42BDE90000000000000132
+t1279442409
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewController.h
+c000000004C607D71000000000000025A
+t1281391985
+s602
+i<UIKit/UIKit.h>
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewController.m
+c000000004C6080A000000000000009BF
+t1281392800
+s2495
+i"FirstViewController.h"
+i"SecondViewController.h"
+i"ThirdViewController.h"
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.h
+c000000004C602AE10000000000000222
+t1281370849
+s546
+i<UIKit/UIKit.h>
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m
+c000000004C602AFB0000000000000ADE
+t1281370875
+s2782
+i"FirstViewControllerAppDelegate.h"
+i"FirstViewController.h"
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/FirstViewController.xib
+c000000004C60590D0000000000006BE6
+t1281382669
+s27622
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/FirstViewController_Prefix.pch
+c000000004C6026A600000000000000CF
+t1281369766
+s207
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/MainWindow.xib
+c000000004C602B1C00000000000067DA
+t1281370908
+s26586
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/SecondViewController.h
+c000000004C6051DB0000000000000123
+t1281380827
+s291
+i<UIKit/UIKit.h>
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/SecondViewController.m
+c000000004C605612000000000000015B
+t1281381906
+s347
+i"SecondViewController.h"
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/SecondViewController.xib
+c000000004C6051E50000000000004DC5
+t1281380837
+s19909
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/ThirdViewController.h
+c000000004C6052020000000000000122
+t1281380866
+s290
+i<UIKit/UIKit.h>
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/ThirdViewController.m
+c000000004C60560E0000000000000157
+t1281381902
+s343
+i"ThirdViewController.h"
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/ThirdViewController.xib
+c000000004C6052310000000000004DF5
+t1281380913
+s19957
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app
+t1281394326
+s340
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app.dSYM
+t1281392913
+s102
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController
+t1281392913
+s24468
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController.nib
+t1281382701
+s2294
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/Info.plist
+t1281394326
+s645
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/MainWindow.nib
+t1281370909
+s1586
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/PkgInfo
+t1281394326
+s8
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/SecondViewController.nib
+t1281380840
+s1806
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/ThirdViewController.nib
+t1281381051
+s1805
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.LinkFileList
+c000000004C6073620000000000000354
+t1281389410
+s852
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.o
+t1281392913
+s43396
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerAppDelegate.o
+t1281392006
+s50048
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/SecondViewController.o
+t1281389411
+s33408
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/ThirdViewController.o
+t1281389411
+s33392
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/main.o
+t1281389411
+s6324
+
+N/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/main.m
+c000000004C6026A60000000000000188
+t1281369766
+s392
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.h
+c000000004C6061A0000000000000025D
+t1281384864
+s605
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m
+c000000004C60620F0000000000000825
+t1281384975
+s2085
+i"FirstViewController.h"
+i"SecondViewController.h"
+i"ThirdViewController.h"
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.h
+c000000004C602AE10000000000000222
+t1281370849
+s546
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m
+c000000004C602AFB0000000000000ADE
+t1281370875
+s2782
+i"FirstViewControllerAppDelegate.h"
+i"FirstViewController.h"
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/FirstViewController.xib
+c000000004C60590D0000000000006BE6
+t1281382669
+s27622
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/FirstViewController_Prefix.pch
+c000000004C6026A600000000000000CF
+t1281369766
+s207
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/MainWindow.xib
+c000000004C602B1C00000000000067DA
+t1281370908
+s26586
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/SecondViewController.h
+c000000004C6051DB0000000000000123
+t1281380827
+s291
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/SecondViewController.m
+c000000004C605612000000000000015B
+t1281381906
+s347
+i"SecondViewController.h"
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/SecondViewController.xib
+c000000004C6051E50000000000004DC5
+t1281380837
+s19909
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/ThirdViewController.h
+c000000004C6052020000000000000122
+t1281380866
+s290
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/ThirdViewController.m
+c000000004C60560E0000000000000157
+t1281381902
+s343
+i"ThirdViewController.h"
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/ThirdViewController.xib
+c000000004C6052310000000000004DF5
+t1281380913
+s19957
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app
+t1281384955
+s340
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app.dSYM
+t1281384955
+s102
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController
+t1281384955
+s24748
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController.nib
+t1281382701
+s2294
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/Info.plist
+t1281370140
+s645
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/MainWindow.nib
+t1281370909
+s1586
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/PkgInfo
+t1281370140
+s8
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/SecondViewController.nib
+t1281380840
+s1806
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/ThirdViewController.nib
+t1281381051
+s1805
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.LinkFileList
+c000000004C6051E8000000000000034F
+t1281380840
+s847
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.o
+t1281384955
+s43704
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerAppDelegate.o
+t1281384893
+s50044
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/SecondViewController.o
+t1281381916
+s33404
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/ThirdViewController.o
+t1281381916
+s33388
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/main.o
+t1281380841
+s6320
+
+N/Users/adam/Desktop/Expand/ExpandViewTransition/main.m
+c000000004C6026A60000000000000188
+t1281369766
+s392
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewController.h
+c000000004C606803000000000000025B
+t1281386499
+s603
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewController.m
+c000000004C606A290000000000000959
+t1281387049
+s2393
+i"FirstViewController.h"
+i"SecondViewController.h"
+i"ThirdViewController.h"
+
+N/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.h
+c000000004C602AE10000000000000222
+t1281370849
+s546
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m
+c000000004C602AFB0000000000000ADE
+t1281370875
+s2782
+i"FirstViewControllerAppDelegate.h"
+i"FirstViewController.h"
+
+N/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.h
+c000000004C60279E00000000000001C4
+t1281370014
+s452
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m
+c000000004C60284100000000000006B4
+t1281370177
+s1716
+i"FirstViewController.h"
+i"SecondViewController.h"
+
+N/Users/adam/Desktop/ExpandViewTransition/FirstViewController.xib
+c000000004C60590D0000000000006BE6
+t1281382669
+s27622
+
+N/Users/adam/Desktop/ExpandViewTransition/FirstViewControllerViewController.xib
+c000000004C6027B100000000000056AE
+t1281370033
+s22190
+
+N/Users/adam/Desktop/ExpandViewTransition/FirstViewController_Prefix.pch
+c000000004C6026A600000000000000CF
+t1281369766
+s207
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/ExpandViewTransition/MainWindow.xib
+c000000004C602B1C00000000000067DA
+t1281370908
+s26586
+
+N/Users/adam/Desktop/ExpandViewTransition/SecondViewController.h
+c000000004C6051DB0000000000000123
+t1281380827
+s291
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/ExpandViewTransition/SecondViewController.m
+c000000004C605612000000000000015B
+t1281381906
+s347
+i"SecondViewController.h"
+
+N/Users/adam/Desktop/ExpandViewTransition/SecondViewController.xib
+c000000004C6051E50000000000004DC5
+t1281380837
+s19909
+
+N/Users/adam/Desktop/ExpandViewTransition/ThirdViewController.h
+c000000004C6052020000000000000122
+t1281380866
+s290
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/ExpandViewTransition/ThirdViewController.m
+c000000004C60560E0000000000000157
+t1281381902
+s343
+i"ThirdViewController.h"
+
+N/Users/adam/Desktop/ExpandViewTransition/ThirdViewController.xib
+c000000004C6052310000000000004DF5
+t1281380913
+s19957
+
+N/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app
+t1281387014
+s340
+
+N/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app.dSYM
+t1281387014
+s102
+
+N/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController
+t1281387014
+s24700
+
+N/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController.nib
+t1281382701
+s2294
+
+N/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewControllerViewController.nib
+t1281370141
+s1982
+
+N/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/Info.plist
+t1281370140
+s645
+
+N/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/MainWindow.nib
+t1281370909
+s1586
+
+N/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/PkgInfo
+t1281370140
+s8
+
+N/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/SecondViewController.nib
+t1281380840
+s1806
+
+N/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/ThirdViewController.nib
+t1281381051
+s1805
+
+N/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.LinkFileList
+c000000004C606224000000000000032C
+t1281384996
+s812
+
+N/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.o
+t1281387014
+s44456
+
+N/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerAppDelegate.o
+t1281386854
+s50032
+
+N/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerViewController.o
+t2
+s0
+
+N/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/SecondViewController.o
+t1281381916
+s33404
+
+N/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/ThirdViewController.o
+t1281381916
+s33388
+
+N/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/main.o
+t1281380841
+s6320
+
+N/Users/adam/Desktop/ExpandViewTransition/main.m
+c000000004C6026A60000000000000188
+t1281369766
+s392
+i<UIKit/UIKit.h>
+
+N/var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-drxxncevnjonyqesnefodbbswocb/FirstViewController_Prefix.pch.gch
+t1281380841
+s15232016
+
+N/var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-ejsugczrshdakkglvbxredlvdivd/FirstViewController_Prefix.pch.gch
+t1281389411
+s15232016
+
+N/var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-eqbzdhhtnwvxsrawpljgbensgdfu/FirstViewController_Prefix.pch.gch
+t1281370142
+s15232016
+
+NFirstViewController-Info.plist
+c000000004C6026A6000000000000038D
+t1281369766
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies303087126#303087126#0(0"0(0#1#0"7308335521232875520#0"0#
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303085713.181743
+e303085713.341071
+r1
+xCompileC
+xbuild/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.o
+x/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewController.m303085713#303085713#0(0"0(0#0#78"/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewController.m7307466928538413056#2289"    cd /Users/adam/Apps/Apps/Stuff/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -include /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-ejsugczrshdakkglvbxredlvdivd/FirstViewController_Prefix.pch -c /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewController.m -o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.o /Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303077755.501696
+e303077755.584508
+r1
+xCompileC
+xbuild/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.o
+x/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m: In function '-[FirstViewController viewWillAppear:]':
+o/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m:16: warning: 'FirstViewController' may not respond to '-animationShrink:callingFinished:'
+o/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m:16: warning: (Messages without a matching method signature
+o/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m:16: warning: will be assumed to return 'id' and accept
+o/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m:16: warning: '...' as arguments.)
+o/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m: In function '-[FirstViewController pressedButton:]':
+o/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m:29: warning: 'FirstViewController' may not respond to '-animationShrink:callingFinished:'
+o/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m:30: warning: 'FirstViewController' may not respond to '-animationExpand'
+lSLF07#2@85"Compile /Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m303077755#303077755#0(1134"/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m: In function '-[FirstViewController viewWillAppear:]':/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m:16: warning: 'FirstViewController' may not respond to '-animationShrink:callingFinished:'/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m:16: warning: (Messages without a matching method signature/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m:16: warning: will be assumed to return 'id' and accept/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m:16: warning: '...' as arguments.)/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m: In function '-[FirstViewController pressedButton:]':/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m:29: warning: 'FirstViewController' may not respond to '-animationShrink:callingFinished:'/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m:30: warning: 'FirstViewController' may not respond to '-animationExpand'4(22@76"'FirstViewController' may not respond to '-animationShrink:callingFinished:'303077755#133#168#0(6@77"/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m303077754#16#0#16#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)303077755#301#137#0(6@77"/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m303077754#16#0#16#0#0"0(22@76"'FirstViewController' may not respond to '-animationShrink:callingFinished:'303077755#815#168#0(6@77"/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m303077754#29#0#29#0#26"'*' may not respond to '*'0(22@59"'FirstViewController' may not respond to '-animationExpand'303077755#983#151#0(6@77"/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m303077754#30#0#30#0#26"'*' may not respond to '*'0(0#0#77"/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m8612362784#2278"    cd /Users/adam/Desktop/Expand/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -include /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-drxxncevnjonyqesnefodbbswocb/FirstViewController_Prefix.pch -c /Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewController.m -o /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.o /Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303079814.367650
+e303079814.601579
+r1
+xCompileC
+xbuild/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.o
+x/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewController.m303079814#303079814#0(0"0(0#0#70"/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewController.m8615297504#2201"    cd /Users/adam/Desktop/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -include /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-eqbzdhhtnwvxsrawpljgbensgdfu/FirstViewController_Prefix.pch -c /Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewController.m -o /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerAppDelegate.o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303084806.082778
+e303084806.240942
+r1
+xCompileC
+xbuild/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerAppDelegate.o
+x/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m303084806#303084806#0(0"0(0#0#89"/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m8616665088#2311"    cd /Users/adam/Apps/Apps/Stuff/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -include /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-ejsugczrshdakkglvbxredlvdivd/FirstViewController_Prefix.pch -c /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m -o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerAppDelegate.o0#
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerAppDelegate.o /Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303077693.877126
+e303077693.975374
+r1
+xCompileC
+xbuild/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerAppDelegate.o
+x/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m303077693#303077693#0(0"0(0#0#88"/Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m8617660544#2300"    cd /Users/adam/Desktop/Expand/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -include /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-drxxncevnjonyqesnefodbbswocb/FirstViewController_Prefix.pch -c /Users/adam/Desktop/Expand/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m -o /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerAppDelegate.o0#
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerAppDelegate.o /Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303079654.547782
+e303079654.685929
+r1
+xCompileC
+xbuild/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerAppDelegate.o
+x/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m303079654#303079654#0(0"0(0#0#81"/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m8598803264#2223"    cd /Users/adam/Desktop/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -include /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-eqbzdhhtnwvxsrawpljgbensgdfu/FirstViewController_Prefix.pch -c /Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerAppDelegate.m -o /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerAppDelegate.o0#
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerViewController.o /Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303062968.945092
+e303062969.067217
+r0
+xCompileC
+xbuild/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerViewController.o
+x/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m: In function '-[FirstViewControllerViewController viewWillAppear:]':
+o/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:15: error: 'whereFrom' undeclared (first use in this function)
+o/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:15: error: (Each undeclared identifier is reported only once
+o/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:15: error: for each function it appears in.)
+o/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:16: warning: 'FirstViewControllerViewController' may not respond to '-fromOperations'
+o/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:16: warning: (Messages without a matching method signature
+o/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:16: warning: will be assumed to return 'id' and accept
+o/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:16: warning: '...' as arguments.)
+o/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m: In function '-[FirstViewControllerViewController pressedButton]':
+o/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:22: error: 'whereFrom' undeclared (first use in this function)
+o/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m: At top level:
+o/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:66: warning: property 'secondVC' requires method '-secondVC' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:66: warning: property 'secondVC' requires the method 'setSecondVC:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@92"Compile /Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m303062968#303062969#0(2005"/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m: In function '-[FirstViewControllerViewController viewWillAppear:]':/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:15: error: 'whereFrom' undeclared (first use in this function)/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:15: error: (Each undeclared identifier is reported only once/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:15: error: for each function it appears in.)/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:16: warning: 'FirstViewControllerViewController' may not respond to '-fromOperations'/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:16: warning: (Messages without a matching method signature/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:16: warning: will be assumed to return 'id' and accept/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:16: warning: '...' as arguments.)/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m: In function '-[FirstViewControllerViewController pressedButton]':/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:22: error: 'whereFrom' undeclared (first use in this function)/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m: At top level:/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:66: warning: property 'secondVC' requires method '-secondVC' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m:66: warning: property 'secondVC' requires the method 'setSecondVC:' to be defined - use @synthesize, @dynamic or provide a method implementation7(4@51"'whereFrom' undeclared (first use in this function)303062969#154#148#0(6@84"/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m303062968#15#0#15#0#43"'*' undeclared (first use in this function)0(22@72"'FirstViewControllerViewController' may not respond to '-fromOperations'303062969#578#171#0(6@84"/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m303062968#16#0#16#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)303062969#749#144#0(6@84"/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m303062968#16#0#16#0#0"0(4@51"'whereFrom' undeclared (first use in this function)303062969#1304#148#0(6@84"/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m303062968#22#0#22#0#43"'*' undeclared (first use in this function)0(23@13"At top level:303062969#1452#100#0(6@84"/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m303062968#0#0#0#0#0"0(22@124"Property 'secondVC' requires method '-secondVC' to be defined - use @synthesize, @dynamic or provide a method implementation303062969#1552#223#0(6@84"/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m303062968#66#0#66#0#0"0(22@131"Property 'secondVC' requires the method 'setSecondVC:' to be defined - use @synthesize, @dynamic or provide a method implementation303062969#1775#230#0(6@84"/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m303062968#66#0#66#0#0"0(0#0#84"/Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m8610631168#2229"    cd /Users/adam/Desktop/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -include /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-eqbzdhhtnwvxsrawpljgbensgdfu/FirstViewController_Prefix.pch -c /Users/adam/Desktop/ExpandViewTransition/Classes/FirstViewControllerViewController.m -o /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewControllerViewController.o1#
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/SecondViewController.o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303082211.540963
+e303082211.606343
+r1
+xCompileC
+xbuild/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/SecondViewController.o
+x/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/SecondViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/SecondViewController.m303082211#303082211#0(0"0(0#0#71"/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/SecondViewController.m8606850016#2283"    cd /Users/adam/Apps/Apps/Stuff/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -include /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-ejsugczrshdakkglvbxredlvdivd/FirstViewController_Prefix.pch -c /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/SecondViewController.m -o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/SecondViewController.o0#
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/SecondViewController.o /Users/adam/Desktop/Expand/ExpandViewTransition/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303074716.493833
+e303074716.596154
+r1
+xCompileC
+xbuild/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/SecondViewController.o
+x/Users/adam/Desktop/Expand/ExpandViewTransition/SecondViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/adam/Desktop/Expand/ExpandViewTransition/SecondViewController.m303074716#303074716#0(0"0(0#0#70"/Users/adam/Desktop/Expand/ExpandViewTransition/SecondViewController.m8615755520#2272"    cd /Users/adam/Desktop/Expand/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -include /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-drxxncevnjonyqesnefodbbswocb/FirstViewController_Prefix.pch -c /Users/adam/Desktop/Expand/ExpandViewTransition/SecondViewController.m -o /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/SecondViewController.o0#
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/SecondViewController.o /Users/adam/Desktop/ExpandViewTransition/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303073505.658198
+e303073505.759474
+r1
+xCompileC
+xbuild/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/SecondViewController.o
+x/Users/adam/Desktop/ExpandViewTransition/SecondViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/adam/Desktop/ExpandViewTransition/SecondViewController.m303073505#303073505#0(0"0(0#0#63"/Users/adam/Desktop/ExpandViewTransition/SecondViewController.m8613675136#2195"    cd /Users/adam/Desktop/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -include /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-eqbzdhhtnwvxsrawpljgbensgdfu/FirstViewController_Prefix.pch -c /Users/adam/Desktop/ExpandViewTransition/SecondViewController.m -o /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/SecondViewController.o0#
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/ThirdViewController.o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/ThirdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303082211.606452
+e303082211.669462
+r1
+xCompileC
+xbuild/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/ThirdViewController.o
+x/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/ThirdViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/ThirdViewController.m303082211#303082211#0(0"0(0#0#70"/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/ThirdViewController.m8603050016#2281"    cd /Users/adam/Apps/Apps/Stuff/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -include /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-ejsugczrshdakkglvbxredlvdivd/FirstViewController_Prefix.pch -c /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/ThirdViewController.m -o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/ThirdViewController.o0#
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/ThirdViewController.o /Users/adam/Desktop/Expand/ExpandViewTransition/ThirdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303074716.504191
+e303074716.596399
+r1
+xCompileC
+xbuild/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/ThirdViewController.o
+x/Users/adam/Desktop/Expand/ExpandViewTransition/ThirdViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/adam/Desktop/Expand/ExpandViewTransition/ThirdViewController.m303074716#303074716#0(0"0(0#0#69"/Users/adam/Desktop/Expand/ExpandViewTransition/ThirdViewController.m8612491712#2270"    cd /Users/adam/Desktop/Expand/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -include /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-drxxncevnjonyqesnefodbbswocb/FirstViewController_Prefix.pch -c /Users/adam/Desktop/Expand/ExpandViewTransition/ThirdViewController.m -o /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/ThirdViewController.o0#
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/ThirdViewController.o /Users/adam/Desktop/ExpandViewTransition/ThirdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/main.o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303082211.457012
+e303082211.518754
+r1
+xCompileC
+xbuild/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/main.o
+x/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/main.m303082211#303082211#0(0"0(0#0#55"/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/main.m8601458720#2251"    cd /Users/adam/Apps/Apps/Stuff/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -include /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-ejsugczrshdakkglvbxredlvdivd/FirstViewController_Prefix.pch -c /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/main.m -o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/main.o0#
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/main.o /Users/adam/Desktop/Expand/ExpandViewTransition/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303073641.754298
+e303073641.833741
+r1
+xCompileC
+xbuild/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/main.o
+x/Users/adam/Desktop/Expand/ExpandViewTransition/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/adam/Desktop/Expand/ExpandViewTransition/main.m303073641#303073641#0(0"0(0#0#54"/Users/adam/Desktop/Expand/ExpandViewTransition/main.m8603200064#2240"    cd /Users/adam/Desktop/Expand/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -include /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-drxxncevnjonyqesnefodbbswocb/FirstViewController_Prefix.pch -c /Users/adam/Desktop/Expand/ExpandViewTransition/main.m -o /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/main.o0#
+
+CCompileC build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/main.o /Users/adam/Desktop/ExpandViewTransition/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303062942.417649
+e303062942.476787
+r1
+xCompileC
+xbuild/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/main.o
+x/Users/adam/Desktop/ExpandViewTransition/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/adam/Desktop/ExpandViewTransition/main.m303062942#303062942#0(0"0(0#0#47"/Users/adam/Desktop/ExpandViewTransition/main.m8615980928#2163"    cd /Users/adam/Desktop/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -include /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-eqbzdhhtnwvxsrawpljgbensgdfu/FirstViewController_Prefix.pch -c /Users/adam/Desktop/ExpandViewTransition/main.m -o /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/FirstViewController.xib
+r0
+
+CCompileXIB /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/MainWindow.xib
+r0
+
+CCompileXIB /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/SecondViewController.xib
+r0
+
+CCompileXIB /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/ThirdViewController.xib
+r0
+
+CCompileXIB /Users/adam/Desktop/Expand/ExpandViewTransition/FirstViewController.xib
+s303075500.633430
+e303075501.104585
+r1
+xCompileXIB
+x/Users/adam/Desktop/Expand/ExpandViewTransition/FirstViewController.xib
+lSLF07#2@34"CompileXIB FirstViewController.xib303075500#303075501#0(0"0(0#0#71"/Users/adam/Desktop/Expand/ExpandViewTransition/FirstViewController.xib8618929824#627"    cd /Users/adam/Desktop/Expand/ExpandViewTransition    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController.nib /Users/adam/Desktop/Expand/ExpandViewTransition/FirstViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/adam/Desktop/Expand/ExpandViewTransition/MainWindow.xib
+r0
+
+CCompileXIB /Users/adam/Desktop/Expand/ExpandViewTransition/SecondViewController.xib
+s303073640.485284
+e303073640.964954
+r1
+xCompileXIB
+x/Users/adam/Desktop/Expand/ExpandViewTransition/SecondViewController.xib
+lSLF07#2@35"CompileXIB SecondViewController.xib303073640#303073640#0(0"0(0#0#72"/Users/adam/Desktop/Expand/ExpandViewTransition/SecondViewController.xib13229804949012596#629"    cd /Users/adam/Desktop/Expand/ExpandViewTransition    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/SecondViewController.nib /Users/adam/Desktop/Expand/ExpandViewTransition/SecondViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/adam/Desktop/Expand/ExpandViewTransition/ThirdViewController.xib
+s303073851.302291
+e303073851.766085
+r1
+xCompileXIB
+x/Users/adam/Desktop/Expand/ExpandViewTransition/ThirdViewController.xib
+lSLF07#2@34"CompileXIB ThirdViewController.xib303073851#303073851#0(0"0(0#0#71"/Users/adam/Desktop/Expand/ExpandViewTransition/ThirdViewController.xib8613534912#627"    cd /Users/adam/Desktop/Expand/ExpandViewTransition    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/ThirdViewController.nib /Users/adam/Desktop/Expand/ExpandViewTransition/ThirdViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/adam/Desktop/ExpandViewTransition/FirstViewController.xib
+s303063746.301116
+e303063746.776384
+r1
+xCompileXIB
+x/Users/adam/Desktop/ExpandViewTransition/FirstViewController.xib
+lSLF07#2@34"CompileXIB FirstViewController.xib303063746#303063746#0(0"0(0#0#64"/Users/adam/Desktop/ExpandViewTransition/FirstViewController.xib8600253056#606"    cd /Users/adam/Desktop/ExpandViewTransition    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController.nib /Users/adam/Desktop/ExpandViewTransition/FirstViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/adam/Desktop/ExpandViewTransition/FirstViewControllerViewController.xib
+s303062940.676820
+e303062941.194593
+r1
+xCompileXIB
+x/Users/adam/Desktop/ExpandViewTransition/FirstViewControllerViewController.xib
+lSLF07#2@48"CompileXIB FirstViewControllerViewController.xib303062940#303062941#0(0"0(0#0#78"/Users/adam/Desktop/ExpandViewTransition/FirstViewControllerViewController.xib8617532480#634"    cd /Users/adam/Desktop/ExpandViewTransition    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewControllerViewController.nib /Users/adam/Desktop/ExpandViewTransition/FirstViewControllerViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/adam/Desktop/ExpandViewTransition/MainWindow.xib
+s303063709.490670
+e303063709.883545
+r1
+xCompileXIB
+x/Users/adam/Desktop/ExpandViewTransition/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib303063709#303063709#0(0"0(0#0#55"/Users/adam/Desktop/ExpandViewTransition/MainWindow.xib8620121440#588"    cd /Users/adam/Desktop/ExpandViewTransition    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/MainWindow.nib /Users/adam/Desktop/ExpandViewTransition/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/adam/Desktop/ExpandViewTransition/SecondViewController.xib
+s303063746.302127
+e303063746.789834
+r1
+xCompileXIB
+x/Users/adam/Desktop/ExpandViewTransition/SecondViewController.xib
+lSLF07#2@35"CompileXIB SecondViewController.xib303063746#303063746#0(0"0(0#0#65"/Users/adam/Desktop/ExpandViewTransition/SecondViewController.xib8620173664#608"    cd /Users/adam/Desktop/ExpandViewTransition    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/SecondViewController.nib /Users/adam/Desktop/ExpandViewTransition/SecondViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/adam/Desktop/ExpandViewTransition/ThirdViewController.xib
+r0
+
+CGenerateDSYMFile /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app.dSYM /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController
+s303085713.371539
+e303085713.393881
+r1
+xGenerateDSYMFile
+x/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app.dSYM
+x/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController
+lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/FirstViewController.app.dSYM build/Debug-iphonesimulator/FirstViewController.app/FirstViewController303085713#303085713#0(0"0(0#0#120"/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController8603334016#449"    cd /Users/adam/Apps/Apps/Stuff/ExpandViewTransition    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController -o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app.dSYM0#
+
+CGenerateDSYMFile /Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app.dSYM /Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController
+s303077755.610670
+e303077755.630402
+r1
+xGenerateDSYMFile
+x/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app.dSYM
+x/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController
+lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/FirstViewController.app.dSYM build/Debug-iphonesimulator/FirstViewController.app/FirstViewController303077755#303077755#0(0"0(0#0#119"/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController8617630592#446"    cd /Users/adam/Desktop/Expand/ExpandViewTransition    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController -o /Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app.dSYM0#
+
+CGenerateDSYMFile /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app.dSYM /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController
+s303079814.626276
+e303079814.646240
+r1
+xGenerateDSYMFile
+x/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app.dSYM
+x/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController
+lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/FirstViewController.app.dSYM build/Debug-iphonesimulator/FirstViewController.app/FirstViewController303079814#303079814#0(0"0(0#0#112"/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController8604444960#425"    cd /Users/adam/Desktop/ExpandViewTransition    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController -o /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app.dSYM0#
+
+CLd /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController normal i386
+s303085713.341166
+e303085713.371445
+r1
+xLd
+x/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController
+xnormal
+xi386
+lSLF07#2@125"Link /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController303085713#303085713#0(0"0(0#0#0"30962724183933048#1010"    cd /Users/adam/Apps/Apps/Stuff/ExpandViewTransition    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator -F/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator -filelist /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController0#
+
+CLd /Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController normal i386
+s303077755.584607
+e303077755.610560
+r1
+xLd
+x/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController
+xnormal
+xi386
+lSLF07#2@124"Link /Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController303077755#303077755#0(0"0(0#0#0"8617965184#1005"    cd /Users/adam/Desktop/Expand/ExpandViewTransition    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator -F/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator -filelist /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController0#
+
+CLd /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController normal i386
+s303079814.601670
+e303079814.626173
+r1
+xLd
+x/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController
+xnormal
+xi386
+lSLF07#2@117"Link /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController303079814#303079814#0(0"0(0#0#0"8611931616#970"    cd /Users/adam/Desktop/ExpandViewTransition    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator -F/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator -filelist /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/Objects-normal/i386/FirstViewController.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/FirstViewController0#
+
+CProcessInfoPlistFile /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/Info.plist FirstViewController-Info.plist
+s303087126.296985
+e303087126.310197
+r1
+xProcessInfoPlistFile
+x/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/Info.plist
+xFirstViewController-Info.plist
+lSLF07#2@38"Process FirstViewController-Info.plist303087126#303087126#0(0"0(0#0#79"/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/FirstViewController-Info.plist18859334547341416#545"    cd /Users/adam/Apps/Apps/Stuff/ExpandViewTransition    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FirstViewController-Info.plist -genpkginfo /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/Info.plist FirstViewController-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/Info.plist FirstViewController-Info.plist
+s303062940.665731
+e303062940.676025
+r1
+xProcessInfoPlistFile
+x/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/Info.plist
+xFirstViewController-Info.plist
+lSLF07#2@38"Process FirstViewController-Info.plist303062940#303062940#0(0"0(0#0#71"/Users/adam/Desktop/ExpandViewTransition/FirstViewController-Info.plist8618306752#521"    cd /Users/adam/Desktop/ExpandViewTransition    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FirstViewController-Info.plist -genpkginfo /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app/Info.plist0#
+
+CProcessPCH /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-drxxncevnjonyqesnefodbbswocb/FirstViewController_Prefix.pch.gch FirstViewController_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s303073640.965125
+e303073641.754014
+r1
+xProcessPCH
+x/var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-drxxncevnjonyqesnefodbbswocb/FirstViewController_Prefix.pch.gch
+xFirstViewController_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile FirstViewController_Prefix.pch303073640#303073641#0(0"0(0#0#78"/Users/adam/Desktop/Expand/ExpandViewTransition/FirstViewController_Prefix.pch8605126560#2111"    cd /Users/adam/Desktop/Expand/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Desktop/Expand/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -c /Users/adam/Desktop/Expand/ExpandViewTransition/FirstViewController_Prefix.pch -o /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-drxxncevnjonyqesnefodbbswocb/FirstViewController_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-ejsugczrshdakkglvbxredlvdivd/FirstViewController_Prefix.pch.gch FirstViewController_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s303082210.653257
+e303082211.456737
+r1
+xProcessPCH
+x/var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-ejsugczrshdakkglvbxredlvdivd/FirstViewController_Prefix.pch.gch
+xFirstViewController_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile FirstViewController_Prefix.pch303082210#303082211#0(0"0(0#0#79"/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/FirstViewController_Prefix.pch4861465825866183680#2121"    cd /Users/adam/Apps/Apps/Stuff/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -c /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/FirstViewController_Prefix.pch -o /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-ejsugczrshdakkglvbxredlvdivd/FirstViewController_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-eqbzdhhtnwvxsrawpljgbensgdfu/FirstViewController_Prefix.pch.gch FirstViewController_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s303062941.499901
+e303062942.417197
+r1
+xProcessPCH
+x/var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-eqbzdhhtnwvxsrawpljgbensgdfu/FirstViewController_Prefix.pch.gch
+xFirstViewController_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile FirstViewController_Prefix.pch303062941#303062942#0(0"0(0#0#71"/Users/adam/Desktop/ExpandViewTransition/FirstViewController_Prefix.pch8615498112#2041"    cd /Users/adam/Desktop/ExpandViewTransition    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-generated-files.hmap -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-own-target-headers.hmap -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-all-target-headers.hmap -iquote /Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/FirstViewController-project-headers.hmap -F/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator -I/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources/i386 -I/Users/adam/Desktop/ExpandViewTransition/build/FirstViewController.build/Debug-iphonesimulator/FirstViewController.build/DerivedSources -c /Users/adam/Desktop/ExpandViewTransition/FirstViewController_Prefix.pch -o /var/folders/G-/G-Vvkly0GYO8Nz+Ee-h5BE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirstViewController_Prefix-eqbzdhhtnwvxsrawpljgbensgdfu/FirstViewController_Prefix.pch.gch0#
+
+CTouch /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app
+s303087126.311079
+e303087126.313896
+r1
+xTouch
+x/Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app
+lSLF07#2@106"Touch /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app303087126#303087126#0(0"0(0#0#0"30399761348493424#310"    cd /Users/adam/Apps/Apps/Stuff/ExpandViewTransition    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adam/Apps/Apps/Stuff/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app0#
+
+CTouch /Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app
+s303077755.630504
+e303077755.633071
+r1
+xTouch
+x/Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app
+lSLF07#2@105"Touch /Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app303077755#303077755#0(0"0(0#0#0"8617346656#308"    cd /Users/adam/Desktop/Expand/ExpandViewTransition    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adam/Desktop/Expand/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app0#
+
+CTouch /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app
+s303079814.646325
+e303079814.648859
+r1
+xTouch
+x/Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app
+lSLF07#2@98"Touch /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app303079814#303079814#0(0"0(0#0#0"8601981824#294"    cd /Users/adam/Desktop/ExpandViewTransition    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adam/Desktop/ExpandViewTransition/build/Debug-iphonesimulator/FirstViewController.app0#
+

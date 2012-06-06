@@ -1,0 +1,110 @@
+#N canvas 108 141 988 546 10;
+#X obj 226 385 *~;
+#X obj 311 386 *~;
+#X obj 399 219 *~;
+#X obj 213 216 *~;
+#X obj 27 254 hsl 128 25 0 1 0 1 \$0-feedback empty feedback 20 12
+0 10 -228856 -260097 -1 12700 0;
+#X obj 27 295 hsl 128 25 0 1 0 1 \$0-outlevel empty outlevel 20 12
+0 10 -228856 -260097 -1 12700 0;
+#X obj 27 209 hsl 128 25 2000 2e+06 0 1 \$0-looplength empty looplength
+20 12 0 10 -228856 -260097 -1 1400 0;
+#X obj 24 342 bng 50 250 50 0 empty empty empty 17 7 0 10 -228856 -260097
+-1;
+#X obj 226 412 dac~ 1;
+#X obj 311 413 dac~ 2;
+#N canvas 199 302 187 173 feedbacklevel 0;
+#X obj 27 81 line~;
+#X obj 27 109 outlet~;
+#X msg 27 57 \$1 500;
+#X text 25 131 feedback level;
+#X obj 95 109 outlet;
+#X obj 29 26 r \$0-feedback;
+#X connect 0 0 1 0;
+#X connect 2 0 0 0;
+#X connect 5 0 2 0;
+#X connect 5 0 4 0;
+#X restore 231 178 pd feedbacklevel;
+#N canvas 199 302 187 173 outlevel 0;
+#X obj 27 81 line~;
+#X obj 27 109 outlet~;
+#X msg 27 57 \$1 500;
+#X obj 95 109 outlet;
+#X obj 27 24 r \$0-outlevel;
+#X text 25 131 output level;
+#X connect 0 0 1 0;
+#X connect 2 0 0 0;
+#X connect 4 0 2 0;
+#X connect 4 0 3 0;
+#X restore 244 340 pd outlevel;
+#X floatatom 307 362 5 0 0 0 - - -;
+#X obj 223 248 adc~ 1;
+#X obj 413 249 adc~ 2;
+#X obj 36 429 s \$0-looperleft;
+#X obj 24 456 s \$0-looperright;
+#X msg 24 404 const 0;
+#X text 76 359 clear loop;
+#X obj 223 273 hip~ 5;
+#X obj 413 275 hip~ 5;
+#X text 461 275 DC filter;
+#X text 462 250 input signal;
+#X text 23 23 stereo sound-on-sound looping delay;
+#X text 23 47 Katja Vetter dec 2010;
+#N canvas 583 172 466 252 more-info 0;
+#X text 14 204 This patch uses [count~] and [poke~] from cyclone \,
+[limiter~] from zexy.;
+#X text 16 72 With feedback setting at max \, it is a looper. With
+lower feedback settings \, the loop content will fade away.;
+#X text 15 115 The read index is one sample ahead of the write index
+\, and wrapped within the loop size.;
+#X text 14 17 Elementary looping delay with sound on sound. A similar
+thing can be done with [delwrite~] and [delread~] or [vd~] \, but [delwrite~]
+lacks the option to clear the delay buffer.;
+#X text 16 153 Loop size could be up to 2^23-1 samples theoretically.
+Beyond that size \, indexing will loose the required precision.;
+#X restore 24 75 pd more-info;
+#X obj 399 43 m_sm2ms;
+#N canvas 605 242 387 274 limiter-for-two-channels 0;
+#X obj 24 22 inlet~;
+#X obj 131 21 inlet~;
+#X obj 24 230 outlet~;
+#X obj 131 230 outlet~;
+#X obj 24 97 limiter~ 85 10;
+#X obj 131 97 limiter~ 85 10;
+#X connect 0 0 4 0;
+#X connect 1 0 5 0;
+#X connect 4 0 2 0;
+#X connect 5 0 3 0;
+#X restore 213 314 pd limiter-for-two-channels;
+#X obj 399 20 r \$0-looplength;
+#X obj 399 152 vd~ \$0-looperright 100;
+#X obj 399 86 sig~;
+#X obj 213 132 vd~ \$0-looperleft 100;
+#X obj 399 466 delwrite~ \$0-looperright 10000;
+#X obj 213 446 delwrite~ \$0-looperleft 10000;
+#X connect 0 0 8 0;
+#X connect 1 0 9 0;
+#X connect 2 0 27 1;
+#X connect 3 0 27 0;
+#X connect 7 0 17 0;
+#X connect 10 0 3 1;
+#X connect 10 0 2 1;
+#X connect 11 0 0 1;
+#X connect 11 0 1 0;
+#X connect 11 1 12 0;
+#X connect 13 0 19 0;
+#X connect 14 0 20 0;
+#X connect 17 0 16 0;
+#X connect 17 0 15 0;
+#X connect 19 0 27 0;
+#X connect 20 0 27 1;
+#X connect 26 0 30 0;
+#X connect 27 0 0 0;
+#X connect 27 0 33 0;
+#X connect 27 1 1 1;
+#X connect 27 1 32 0;
+#X connect 28 0 26 0;
+#X connect 29 0 2 0;
+#X connect 30 0 29 0;
+#X connect 30 0 31 0;
+#X connect 31 0 3 0;

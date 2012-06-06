@@ -1,0 +1,12 @@
+#N canvas 0 22 450 300 10;
+#X declare -path .;
+#X obj 94 107 loadbang;
+#X obj 94 132 samplerate~;
+#X msg 94 159 sr \$1;
+#X obj 94 57 declare -path .;
+#X obj 118 213 print \$1_patch_has_loaded;
+#X obj 94 188 u_samplebank2 \$1 \$1.wav;
+#X connect 0 0 1 0;
+#X connect 0 0 4 0;
+#X connect 1 0 2 0;
+#X connect 2 0 5 0;

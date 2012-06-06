@@ -1,0 +1,161 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf320
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Italic;}
+{\colortbl;\red255\green255\blue255;\red62\green89\blue255;\red170\green13\blue145;\red92\green38\blue153;
+\red63\green110\blue116;\red100\green56\blue32;\red196\green26\blue22;\red28\green0\blue207;\red0\green116\blue0;
+\red46\green13\blue110;\red38\green71\blue75;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww15260\viewh9380\viewkind0
+\deftab560
+\pard\tx560\pardeftab560\ql\qnatural\pardirnatural
+
+\f0\fs36 \cf2 \CocoaLigature0 ExpandViewTransition - Instructions
+\fs22 \cf0 \
+\
+let's start with the header (.h).\
+\
+For this code to work, you need the following outlet:\
+\
+\cf3 IBOutlet\cf0  \cf4 UIViewController\cf0  *\cf5 viewController\cf0 ;\
+\
+and the following IBAction:\
+\
+-(\cf3 IBAction\cf0 )pressedButton:(\cf3 id\cf0 )sender;\
+\
+You also need a view controller for each view you want to expand, as you would do for sliding views with pushViewController. To see how to do this, check out the youtube video from which you downloaded this file. \
+\
+
+\fs18 _______________________________________________________________________________
+\fs22 \
+\
+\
+Now the main (.m).\
+\
+For each view controller you have declared in the .h, you need to synthesise it in the .m. So if I have two view controllers, one for the second view and the other for the third view, I would place the line:\
+\
+\cf3 @synthesize\cf0  secondVC, thirdVC;\
+\
+underneath the @implementation line.\
+\
+You also need to import the .h of each view you will be expanding. So in the same sample, I need to:\
+\
+\cf6 #import \cf7 "SecondViewController.h"\cf6 \
+#import \cf7 "ThirdViewController.h"\
+\cf0 \
+at the top of my project.\
+\
+Then below the imports, and above the implementation, add the following three lines:\
+\
+\cf6 #define TIME_FOR_SHRINKING \cf8 0.61f\cf6  \cf9 // Has to be different from SPEED_OF_EXPANDING and has to end in 'f'\cf6 \
+#define TIME_FOR_EXPANDING \cf8 0.60f\cf6  \cf9 // Has to be different from SPEED_OF_SHRINKING and has to end in 'f'\cf6 \
+#define SCALED_DOWN_AMOUNT \cf8 0.01\cf6   \cf9 // For example, 0.01 is one hundredth of the normal size\cf0 \
+\
+Copy and paste the following into anywhere in your project .m file:\
+\
+-(\cf3 void\cf0 )animateTransition:(\cf4 NSNumber\cf0  *)duration \{\
+	\cf3 self\cf0 .\cf4 view\cf0 .\cf4 userInteractionEnabled\cf0 =\cf3 NO\cf0 ;\
+	[[\cf3 self\cf0  \cf10 view\cf0 ] \cf10 addSubview\cf0 :\cf5 viewController\cf0 .\cf10 view\cf0 ];\
+	\cf3 if\cf0  ((\cf5 viewController\cf0 .\cf4 view\cf0 .\cf4 hidden\cf0 ==\cf6 false\cf0 ) && ([duration \cf10 floatValue\cf0 ]==\cf6 TIME_FOR_EXPANDING\cf0 )) \{\
+		\cf5 viewController\cf0 .\cf4 view\cf0 .\cf4 frame\cf0 =[[\cf4 UIScreen\cf0  \cf10 mainScreen\cf0 ] \cf10 bounds\cf0 ];\
+		\cf5 viewController\cf0 .\cf4 view\cf0 .\cf4 transform\cf0 =\cf10 CGAffineTransformMakeScale\cf0 (\cf6 SCALED_DOWN_AMOUNT\cf0 , \cf6 SCALED_DOWN_AMOUNT\cf0 );\
+	\}\
+	\cf5 viewController\cf0 .\cf4 view\cf0 .\cf4 hidden\cf0 =\cf6 false\cf0 ;\
+	\cf3 if\cf0  ([duration \cf10 floatValue\cf0 ]==\cf6 TIME_FOR_SHRINKING\cf0 ) \{\
+		[\cf4 UIView\cf0  \cf10 beginAnimations\cf0 :\cf7 @"animationShrink"\cf0  \cf10 context\cf0 :\cf3 NULL\cf0 ];\
+		[\cf4 UIView\cf0  \cf10 setAnimationDuration\cf0 :[duration \cf10 floatValue\cf0 ]];\
+		\cf5 viewController\cf0 .\cf4 view\cf0 .\cf4 transform\cf0 =\cf10 CGAffineTransformMakeScale\cf0 (\cf6 SCALED_DOWN_AMOUNT\cf0 , \cf6 SCALED_DOWN_AMOUNT\cf0 );\
+	\}\
+	\cf3 else\cf0  \{\
+		[\cf4 UIView\cf0  \cf10 beginAnimations\cf0 :\cf7 @"animationExpand"\cf0  \cf10 context\cf0 :\cf3 NULL\cf0 ];\
+		[\cf4 UIView\cf0  \cf10 setAnimationDuration\cf0 :[duration \cf10 floatValue\cf0 ]];\
+		\cf5 viewController\cf0 .\cf4 view\cf0 .\cf4 transform\cf0 =\cf10 CGAffineTransformMakeScale\cf0 (\cf8 1\cf0 , \cf8 1\cf0 );\
+	\}\
+	[\cf4 UIView\cf0  \cf10 setAnimationDelegate\cf0 :\cf3 self\cf0 ];\
+	[\cf4 UIView\cf0  \cf10 setAnimationDidStopSelector\cf0 :\cf3 @selector\cf0 (\cf11 animationDidStop\cf0 :\cf11 finished\cf0 :\cf11 context\cf0 :)];\
+	[\cf4 UIView\cf0  \cf10 commitAnimations\cf0 ];\
+\}\
+-(\cf3 void\cf0 )animationDidStop:(\cf4 NSString\cf0  *)animationID finished:(\cf3 BOOL\cf0 )finished context:(\cf3 void\cf0  *)context\{\
+	\cf3 self\cf0 .\cf4 view\cf0 .\cf4 userInteractionEnabled\cf0 =\cf3 YES\cf0 ;\
+	\cf3 if\cf0  ([animationID \cf10 isEqualToString\cf0 :\cf7 @"animationExpand"\cf0 ]) \{\
+		[[\cf3 self\cf0  \cf10 navigationController\cf0 ] \cf10 pushViewController\cf0 :\cf5 viewController\cf0  \cf10 animated\cf0 :\cf3 NO\cf0 ];\
+	\}\
+	\cf3 else\cf0  \{\
+		\cf5 viewController\cf0 .\cf4 view\cf0 .\cf4 hidden\cf0 =\cf6 true\cf0 ;\
+	\}\
+\}\
+\
+Then copy and paste the following into the same .m:\
+\
+-(\cf3 void\cf0 )viewWillAppear:(\cf3 BOOL\cf0 )animated \{\
+	[\cf3 self\cf0  \cf10 performSelector\cf0 :\cf3 @selector\cf0 (\cf11 animateTransition\cf0 :) \cf10 withObject\cf0 :[\cf4 NSNumber\cf0  \cf10 numberWithFloat\cf0 : \cf6 TIME_FOR_SHRINKING\cf0 ]];	\
+\}\
+\
+
+\fs16 _____________________________________________
+\fs22 \
+\
+Now for the button actions (for same .m).\
+\
+The way we do it, is to have one buttonPressed method (see .h IBAction above) - assigned to each button you have. You can use Interface Builder to give each button a tag. Tag them each, going up by 1 a time. You can then use a switch statement to work out which button was pressed. We do this as follows:\
+\
+-(\cf3 IBAction\cf0 )pressedButton:(\cf3 id\cf0 )sender \{\
+	\cf4 UIButton\cf0  *buttonPressed = (\cf4 UIButton\cf0  *)sender;\
+	\cf3 switch\cf0  (buttonPressed.\cf4 tag\cf0 ) \{\
+		\cf3 case\cf0  \cf8 1\cf0 :\
+			//\cf5 First button pressed\cf0 \
+			\cf3 break\cf0 ;\
+		\cf3 case\cf0  \cf8 2\cf0 :\
+			//\cf5 Second button pressed\cf0 \
+			\cf3 break\cf0 ;\
+	\}\
+\}\
+\
+Then, all we do when a button is pressed is make our variable viewController equal to the view controller fro the view that pressing that button will lead us to. So if the view controller for my second view is secondVC, then I would say when button 2 is pressed, viewController=secondVC.\
+\
+This leads to code like this:\
+\
+-(\cf3 IBAction\cf0 )pressedButton:(\cf3 id\cf0 )sender \{\
+	\cf4 UIButton\cf0  *buttonPressed = (\cf4 UIButton\cf0  *)sender;\
+	\cf3 switch\cf0  (buttonPressed.\cf4 tag\cf0 ) \{\
+		\cf3 case\cf0  \cf8 2\cf0 :\
+			\cf5 viewController\cf0 =\cf5 secondVC\cf0 ;\
+			\cf3 break\cf0 ;\
+		\cf3 case\cf0  \cf8 3\cf0 :\
+			\cf5 viewController\cf0 =\cf5 thirdVC\cf0 ;\
+			\cf3 break\cf0 ;\
+	\}\
+\}\
+\
+All we then need to do is call the animation function afterwards, leading to this:\
+\
+-(\cf3 IBAction\cf0 )pressedButton:(\cf3 id\cf0 )sender \{\
+	\cf4 UIButton\cf0  *buttonPressed = (\cf4 UIButton\cf0  *)sender;\
+	\cf3 switch\cf0  (buttonPressed.\cf4 tag\cf0 ) \{\
+		\cf3 case\cf0  \cf8 2\cf0 :\
+			\cf5 viewController\cf0 =\cf5 secondVC\cf0 ;\
+			\cf3 break\cf0 ;\
+		\cf3 case\cf0  \cf8 3\cf0 :\
+			\cf5 viewController\cf0 =\cf5 thirdVC\cf0 ;\
+			\cf3 break\cf0 ;\
+	\}\
+	[\cf3 self\cf0  \cf10 performSelector\cf0 :\cf3 @selector\cf0 (\cf11 animateTransition\cf0 :) \cf10 withObject\cf0 :[\cf4 NSNumber\cf0  \cf10 numberWithFloat\cf0 : \cf6 TIME_FOR_EXPANDING\cf0 ]];\
+\}\
+\
+
+\f1\i If you prefer, you can assign each button a separate IBOutlet, so for example I could call them buttonOne, buttonTwo etc. Then code the pressedButton function something like this:\
+\
+-(\cf3 IBAction\cf0 )pressedButton:(\cf3 id\cf0 )sender \{\
+	\cf4 UIButton\cf0  *buttonPressed = (\cf4 UIButton\cf0  *)sender;\
+	\cf3 if (buttonPressed==buttonOne) \{\
+		\cf5 viewController\cf0 =\cf5 secondVC\cf0 ;\cf3 \
+	\}\cf0 	\
+	else \cf3 if (buttonPressed==buttonTwo) \{\
+		\cf5 viewController\cf0 =\cf5 thirdVC\cf0 ;\cf3 \
+	\}\cf0 \
+	[\cf3 self\cf0  \cf10 performSelector\cf0 :\cf3 @selector\cf0 (\cf11 animateTransition\cf0 :) \cf10 withObject\cf0 :[\cf4 NSNumber\cf0  \cf10 numberWithFloat\cf0 : \cf6 TIME_FOR_EXPANDING\cf0 ]];\
+\}\
+\
+
+\f0\i0 And that's it! Any questions/comments please leave comments on the youtube video from which you downloaded this file.\
+____________________\
+Adam\
+abgapps\
+abgapps.co.uk}

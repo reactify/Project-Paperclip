@@ -1,0 +1,16 @@
+#N canvas 511 160 450 300 10;
+#X obj 120 29 loadbang;
+#X obj 120 50 samplerate~;
+#X obj 81 228 s sample-info;
+#X obj 81 103 r play-sample-\$1;
+#X msg 120 74 sr \$1 \, info;
+#X obj 120 135 u_samplebank2 PPC-\$1 PPC-\$1.wav;
+#X obj 81 187 symbol;
+#X obj 120 156 unpack s;
+#X connect 0 0 1 0;
+#X connect 1 0 4 0;
+#X connect 3 0 6 0;
+#X connect 4 0 5 0;
+#X connect 5 0 7 0;
+#X connect 6 0 2 0;
+#X connect 7 0 6 1;

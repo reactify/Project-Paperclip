@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>nameKey</key>
+		<string>Scan</string>
+		<key>descriptionKey</key>
+		<string>Tap to scan a new image</string>
+		<key>imageKey</key>
+		<string>camera.png</string>
+	</dict>
+	<dict>
+		<key>nameKey</key>
+		<string>Photo One</string>
+		<key>descriptionKey</key>
+		<string>Description for Photo One</string>
+		<key>imageKey</key>
+		<string>1.png</string>
+	</dict>
+	<dict>
+		<key>nameKey</key>
+		<string>Photo Two</string>
+		<key>descriptionKey</key>
+		<string>Description for Photo Two</string>
+		<key>imageKey</key>
+		<string>2.png</string>
+	</dict>
+	<dict>
+		<key>nameKey</key>
+		<string>Photo Three</string>
+		<key>descriptionKey</key>
+		<string>Description for Photo Three</string>
+		<key>imageKey</key>
+		<string>3.png</string>
+	</dict>
+	<dict>
+		<key>nameKey</key>
+		<string>Photo Four</string>
+		<key>descriptionKey</key>
+		<string>Description for Photo Four</string>
+		<key>imageKey</key>
+		<string>4.png</string>
+	</dict>
+	<dict>
+		<key>nameKey</key>
+		<string>Photo Five</string>
+		<key>descriptionKey</key>
+		<string>Description for Photo Five</string>
+		<key>imageKey</key>
+		<string>5.png</string>
+	</dict>
+</array>
+</plist>
