@@ -145,7 +145,7 @@ extern void fiddle_tilde_setup(void);
 	pdAudio = [[PdAudio alloc] initWithSampleRate:22050.0 andTicksPerBuffer:ticksPerBuffer
                          andNumberOfInputChannels:2 andNumberOfOutputChannels:2];
 	
-	[self copyDemoPatchesToUserDomain];  // move the bundled patches to the documents dir
+//	[self copyDemoPatchesToUserDomain];  // move the bundled patches to the documents dir
 	[self openAndRunTestPatch];
     
     fiddle_tilde_setup();
@@ -160,12 +160,17 @@ extern void fiddle_tilde_setup(void);
 }
 
 - (void) openAndRunTestPatch {
-	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-	NSString *documentsDirectory = [paths objectAtIndex:0];
+//	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+//	NSString *documentsDirectory = [paths objectAtIndex:0];
 	
 //  	[PdBase openFile:@"_Main.pd" path:documentsDirectory];
 
-  	[PdBase openFile:@"/pd/_MainSpecial.pd" path:documentsDirectory];    
+//  	[PdBase openFile:@"/pd/_MainSpecial.pd" path:documentsDirectory];    
+	
+	NSBundle *mainBundle = [NSBundle mainBundle];
+	NSString *bundlePath = [mainBundle bundlePath];
+    
+    [PdBase openFile:@"_MainInBundle.pd" path:bundlePath];
     
 	[PdBase computeAudio:YES];
 	[pdAudio play];

@@ -202,6 +202,9 @@ static NSString *UnlockedPhotoKey = @"photoUnlocked";
     [unlockedPhotosArray2 addObject:photoIDString];
     
     NSLog(@"Contents of unlockedPhotosArray2 %@", unlockedPhotosArray2);
+    
+    // Save the contents
+    [unlockedPhotosArray2 writeToFile:[self dataFilePath] atomically:YES];
 }
 
 #pragma mark -

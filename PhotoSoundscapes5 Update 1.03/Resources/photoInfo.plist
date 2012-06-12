@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
+<plist version="1.1">
 <array>
 	<dict>
 		<key>nameKey</key>
 		<string>No Man&apos;s Land</string>
 		<key>imageKey</key>
 		<string>1.png</string>
+		<key>accessQR</key>
+		<string>1</string>
 		<key>accessKey</key>
 		<string>0</string>
 		<key>descriptionKey</key>
@@ -17,6 +19,8 @@
 		<string>0.0.0.0. 1980</string>
 		<key>imageKey</key>
 		<string>9.png</string>
+		<key>accessQR</key>
+		<string>2</string>
 		<key>accessKey</key>
 		<string>0</string>
 		<key>descriptionKey</key>
@@ -27,6 +31,8 @@
 		<string>Linear Path</string>
 		<key>imageKey</key>
 		<string>15.png</string>
+		<key>accessQR</key>
+		<string>3</string>
 		<key>accessKey</key>
 		<string>1</string>
 		<key>descriptionKey</key>
@@ -37,6 +43,8 @@
 		<string>Midnight Sun</string>
 		<key>imageKey</key>
 		<string>10.png</string>
+		<key>accessQR</key>
+		<string>4</string>
 		<key>accessKey</key>
 		<string>0</string>
 		<key>descriptionKey</key>
@@ -47,6 +55,8 @@
 		<string>The Pyramid</string>
 		<key>imageKey</key>
 		<string>13.png</string>
+		<key>accessQR</key>
+		<string>5</string>
 		<key>accessKey</key>
 		<string>0</string>
 		<key>descriptionKey</key>
@@ -57,6 +67,8 @@
 		<string>Cruising</string>
 		<key>imageKey</key>
 		<string>16.png</string>
+		<key>accessQR</key>
+		<string>6</string>
 		<key>accessKey</key>
 		<string>0</string>
 		<key>descriptionKey</key>
@@ -67,6 +79,8 @@
 		<string>To The Sound of The Skateboard</string>
 		<key>imageKey</key>
 		<string>17.png</string>
+		<key>accessQR</key>
+		<string>7</string>
 		<key>accessKey</key>
 		<string>2</string>
 		<key>descriptionKey</key>
@@ -77,6 +91,8 @@
 		<string>Flow</string>
 		<key>imageKey</key>
 		<string>18.png</string>
+		<key>accessQR</key>
+		<string>8</string>
 		<key>accessKey</key>
 		<string>1</string>
 		<key>descriptionKey</key>
@@ -87,6 +103,8 @@
 		<string>Plank Time</string>
 		<key>imageKey</key>
 		<string>6.png</string>
+		<key>accessQR</key>
+		<string>9</string>
 		<key>accessKey</key>
 		<string>0</string>
 		<key>descriptionKey</key>
@@ -97,6 +115,8 @@
 		<string>Memories</string>
 		<key>imageKey</key>
 		<string>7.png</string>
+		<key>accessQR</key>
+		<string>10</string>
 		<key>accessKey</key>
 		<string>0</string>
 		<key>descriptionKey</key>
@@ -107,6 +127,8 @@
 		<string>Sputnik Generation</string>
 		<key>imageKey</key>
 		<string>8.png</string>
+		<key>accessQR</key>
+		<string>11</string>
 		<key>accessKey</key>
 		<string>0</string>
 		<key>descriptionKey</key>
@@ -117,6 +139,8 @@
 		<string>Pressure Point</string>
 		<key>imageKey</key>
 		<string>2.png</string>
+		<key>accessQR</key>
+		<string>12</string>
 		<key>accessKey</key>
 		<string>0</string>
 		<key>descriptionKey</key>
@@ -127,6 +151,8 @@
 		<string>Ready to Engage</string>
 		<key>imageKey</key>
 		<string>4.png</string>
+		<key>accessQR</key>
+		<string>13</string>
 		<key>accessKey</key>
 		<string>0</string>
 		<key>descriptionKey</key>
@@ -137,6 +163,8 @@
 		<string>Among Birds</string>
 		<key>imageKey</key>
 		<string>3.png</string>
+		<key>accessQR</key>
+		<string>14</string>
 		<key>accessKey</key>
 		<string>0</string>
 		<key>descriptionKey</key>
@@ -147,6 +175,8 @@
 		<string>Milky Way Path</string>
 		<key>imageKey</key>
 		<string>5.png</string>
+		<key>accessQR</key>
+		<string>15</string>
 		<key>accessKey</key>
 		<string>0</string>
 		<key>descriptionKey</key>
@@ -157,6 +187,8 @@
 		<string>Under The Spell of Polaris</string>
 		<key>imageKey</key>
 		<string>20.png</string>
+		<key>accessQR</key>
+		<string>16</string>
 		<key>accessKey</key>
 		<string>2</string>
 		<key>descriptionKey</key>
@@ -167,6 +199,8 @@
 		<string>2012</string>
 		<key>imageKey</key>
 		<string>11.png</string>
+		<key>accessQR</key>
+		<string>17</string>
 		<key>accessKey</key>
 		<string>0</string>
 		<key>descriptionKey</key>
@@ -177,10 +211,24 @@
 		<string>Observers</string>
 		<key>imageKey</key>
 		<string>12.png</string>
+		<key>accessQR</key>
+		<string>18</string>
 		<key>accessKey</key>
 		<string>0</string>
 		<key>descriptionKey</key>
 		<string>Doppelgängers</string>
+	</dict>
+	<dict>
+		<key>nameKey</key>
+		<string>Way</string>
+		<key>imageKey</key>
+		<string>21.png</string>
+		<key>accessQR</key>
+		<string>21</string>
+		<key>accessKey</key>
+		<string>0</string>
+		<key>descriptionKey</key>
+		<string>Accumulator</string>
 	</dict>
 </array>
 </plist>

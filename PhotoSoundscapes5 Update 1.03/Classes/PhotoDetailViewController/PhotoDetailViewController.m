@@ -165,7 +165,8 @@ int         sampleToSwitch;
 #pragma mark - Pd
 
 - (void)launchPdSubpatch {
-    // Get patch directory
+    /*
+     // Get patch directory
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString *documentsDirectory = [paths objectAtIndex:0];
     NSString *pdPatchFolder = [documentsDirectory stringByAppendingPathComponent:@"/pd"];
@@ -174,6 +175,14 @@ int         sampleToSwitch;
     
     // Open the patch
     [PdBase openFile:patchToOpen path:pdPatchFolder];
+     */
+    
+    NSBundle *mainBundle = [NSBundle mainBundle];
+	NSString *bundlePath = [mainBundle bundlePath];
+
+    NSLog(@"Opening patch: %@", patchToOpen);
+    
+    [PdBase openFile:patchToOpen path:bundlePath];
     
     // Send current hour to Pd for certain drum tracks
     NSDate *now = [NSDate date];

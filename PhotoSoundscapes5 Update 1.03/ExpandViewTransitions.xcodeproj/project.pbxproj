@@ -14,6 +14,8 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FirstViewController.m */; };
+		7B16914E157F78C30095BA5F /* g21.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B16914D157F78C30095BA5F /* g21.png */; };
+		7B169150157F791D0095BA5F /* 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B16914F157F791D0095BA5F /* 21.png */; };
 		7B1B841D14C997E40045BE39 /* PPC-T.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B841C14C997E40045BE39 /* PPC-T.wav */; };
 		7B1B841F14C997FF0045BE39 /* e_noclickdel.pd in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B841E14C997FF0045BE39 /* e_noclickdel.pd */; };
 		7B1B842114C9B8EB0045BE39 /* PPC-O.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B842014C9B8EB0045BE39 /* PPC-O.wav */; };
@@ -37,9 +39,9 @@
 		7B1B845614C9E6E70045BE39 /* _PPC-Sample-16.pd in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B844114C9E6E70045BE39 /* _PPC-Sample-16.pd */; };
 		7B1B845714C9E6E70045BE39 /* _PPC-Sample-17.pd in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B844214C9E6E70045BE39 /* _PPC-Sample-17.pd */; };
 		7B1B845814C9E6E70045BE39 /* _PPC-Sample-18.pd in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B844314C9E6E70045BE39 /* _PPC-Sample-18.pd */; };
-		7B1B845914C9E6E70045BE39 /* _PPC-Sample-19.pd in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B844414C9E6E70045BE39 /* _PPC-Sample-19.pd */; };
 		7B1B845A14C9E6E70045BE39 /* _PPC-Sample-20.pd in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B844514C9E6E70045BE39 /* _PPC-Sample-20.pd */; };
 		7B1B845B14C9E6E70045BE39 /* _PPC-Sample.pd in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B844614C9E6E70045BE39 /* _PPC-Sample.pd */; };
+		7B26F7D6158101740025EB34 /* _PPC-Sample-21.pd in Resources */ = {isa = PBXBuildFile; fileRef = 7B26F7D5158101740025EB34 /* _PPC-Sample-21.pd */; };
 		7B2CB16A14BDB41F000F5A5A /* about-tweet-logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2CB16814BDB41F000F5A5A /* about-tweet-logout.png */; };
 		7B2CB16B14BDB41F000F5A5A /* about-tweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2CB16914BDB41F000F5A5A /* about-tweet.png */; };
 		7B2CB17814BDE686000F5A5A /* TwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2CB17714BDE686000F5A5A /* TwitterController.m */; };
@@ -133,6 +135,7 @@
 		7BC8DD6E14C4A7A00022D12E /* lock2-physical@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC8DD6C14C4A7A00022D12E /* lock2-physical@2x.png */; };
 		7BD97F2E14CDC2F300CC4B91 /* PPC-R.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7BD97F2C14CDC2F300CC4B91 /* PPC-R.wav */; };
 		7BD97F2F14CDC2F300CC4B91 /* PPC-S.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7BD97F2D14CDC2F300CC4B91 /* PPC-S.wav */; };
+		7BEB476715874A26006433DB /* _MainInBundle.pd in Resources */ = {isa = PBXBuildFile; fileRef = 7BEB476615874A26006433DB /* _MainInBundle.pd */; };
 		8B122A7D14AD0E5900C4CC86 /* shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B122A7C14AD0E5900C4CC86 /* shadow@2x.png */; };
 		8B122A8014AD202B00C4CC86 /* vera.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B122A7F14AD202B00C4CC86 /* vera.ttf */; };
 		8B122A8314AD274E00C4CC86 /* buttonback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B122A8114AD274E00C4CC86 /* buttonback@2x.png */; };
@@ -367,6 +370,8 @@
 		28D7ACF60DDB3853001CB0EB /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = Classes/FirstViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = Classes/FirstViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B16914D157F78C30095BA5F /* g21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g21.png; sourceTree = "<group>"; };
+		7B16914F157F791D0095BA5F /* 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 21.png; sourceTree = "<group>"; };
 		7B1B841C14C997E40045BE39 /* PPC-T.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "PPC-T.wav"; path = "audio/PPC-T.wav"; sourceTree = "<group>"; };
 		7B1B841E14C997FF0045BE39 /* e_noclickdel.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = e_noclickdel.pd; sourceTree = "<group>"; };
 		7B1B842014C9B8EB0045BE39 /* PPC-O.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "PPC-O.wav"; path = "audio/PPC-O.wav"; sourceTree = "<group>"; };
@@ -390,9 +395,9 @@
 		7B1B844114C9E6E70045BE39 /* _PPC-Sample-16.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "_PPC-Sample-16.pd"; path = "audio/_PPC-Sample-16.pd"; sourceTree = "<group>"; };
 		7B1B844214C9E6E70045BE39 /* _PPC-Sample-17.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "_PPC-Sample-17.pd"; path = "audio/_PPC-Sample-17.pd"; sourceTree = "<group>"; };
 		7B1B844314C9E6E70045BE39 /* _PPC-Sample-18.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "_PPC-Sample-18.pd"; path = "audio/_PPC-Sample-18.pd"; sourceTree = "<group>"; };
-		7B1B844414C9E6E70045BE39 /* _PPC-Sample-19.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "_PPC-Sample-19.pd"; path = "audio/_PPC-Sample-19.pd"; sourceTree = "<group>"; };
 		7B1B844514C9E6E70045BE39 /* _PPC-Sample-20.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "_PPC-Sample-20.pd"; path = "audio/_PPC-Sample-20.pd"; sourceTree = "<group>"; };
 		7B1B844614C9E6E70045BE39 /* _PPC-Sample.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "_PPC-Sample.pd"; path = "audio/_PPC-Sample.pd"; sourceTree = "<group>"; };
+		7B26F7D5158101740025EB34 /* _PPC-Sample-21.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "_PPC-Sample-21.pd"; path = "audio/_PPC-Sample-21.pd"; sourceTree = "<group>"; };
 		7B2CB16814BDB41F000F5A5A /* about-tweet-logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-tweet-logout.png"; sourceTree = "<group>"; };
 		7B2CB16914BDB41F000F5A5A /* about-tweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-tweet.png"; sourceTree = "<group>"; };
 		7B2CB17614BDE686000F5A5A /* TwitterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterController.h; path = Classes/TwitterController/TwitterController.h; sourceTree = "<group>"; };
@@ -523,6 +528,7 @@
 		7BC8DD6C14C4A7A00022D12E /* lock2-physical@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lock2-physical@2x.png"; path = "Resources/gfx/lock2-physical@2x.png"; sourceTree = SOURCE_ROOT; };
 		7BD97F2C14CDC2F300CC4B91 /* PPC-R.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "PPC-R.wav"; path = "audio/PPC-R.wav"; sourceTree = "<group>"; };
 		7BD97F2D14CDC2F300CC4B91 /* PPC-S.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "PPC-S.wav"; path = "audio/PPC-S.wav"; sourceTree = "<group>"; };
+		7BEB476615874A26006433DB /* _MainInBundle.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _MainInBundle.pd; sourceTree = "<group>"; };
 		8B122A7C14AD0E5900C4CC86 /* shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shadow@2x.png"; path = "Resources/gfx/shadow@2x.png"; sourceTree = SOURCE_ROOT; };
 		8B122A7F14AD202B00C4CC86 /* vera.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = vera.ttf; sourceTree = SOURCE_ROOT; };
 		8B122A8114AD274E00C4CC86 /* buttonback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buttonback@2x.png"; path = "Resources/gfx/buttonback@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -961,8 +967,8 @@
 				7B1B844114C9E6E70045BE39 /* _PPC-Sample-16.pd */,
 				7B1B844214C9E6E70045BE39 /* _PPC-Sample-17.pd */,
 				7B1B844314C9E6E70045BE39 /* _PPC-Sample-18.pd */,
-				7B1B844414C9E6E70045BE39 /* _PPC-Sample-19.pd */,
 				7B1B844514C9E6E70045BE39 /* _PPC-Sample-20.pd */,
+				7B26F7D5158101740025EB34 /* _PPC-Sample-21.pd */,
 				7B1B844614C9E6E70045BE39 /* _PPC-Sample.pd */,
 			);
 			name = "sample-patches";
@@ -1256,6 +1262,7 @@
 				7B1B845C14C9E6F40045BE39 /* samples */,
 				7B1B843114C9E6D30045BE39 /* sample-patches */,
 				7B1B842414C9D1360045BE39 /* _MainSpecial.pd */,
+				7BEB476615874A26006433DB /* _MainInBundle.pd */,
 				8BA8F78914ACAC830027E6C7 /* abs */,
 				8B4399C614ABDE07004D9ADC /* PPC.pd */,
 			);
@@ -1603,6 +1610,7 @@
 				7BC8DD5414C49C970022D12E /* g18.png */,
 				7BC8DD5514C49C970022D12E /* g19.png */,
 				7BC8DD5614C49C970022D12E /* g20.png */,
+				7B16914D157F78C30095BA5F /* g21.png */,
 			);
 			path = gallery;
 			sourceTree = "<group>";
@@ -1629,6 +1637,7 @@
 				7BC8DD2C14C49C880022D12E /* 18.png */,
 				7BC8DD2D14C49C880022D12E /* 19.png */,
 				7BC8DD2E14C49C880022D12E /* 20.png */,
+				7B16914F157F791D0095BA5F /* 21.png */,
 			);
 			name = detail;
 			sourceTree = "<group>";
@@ -1942,13 +1951,16 @@
 				7B1B845614C9E6E70045BE39 /* _PPC-Sample-16.pd in Resources */,
 				7B1B845714C9E6E70045BE39 /* _PPC-Sample-17.pd in Resources */,
 				7B1B845814C9E6E70045BE39 /* _PPC-Sample-18.pd in Resources */,
-				7B1B845914C9E6E70045BE39 /* _PPC-Sample-19.pd in Resources */,
 				7B1B845A14C9E6E70045BE39 /* _PPC-Sample-20.pd in Resources */,
 				7B1B845B14C9E6E70045BE39 /* _PPC-Sample.pd in Resources */,
 				7BD97F2E14CDC2F300CC4B91 /* PPC-R.wav in Resources */,
 				7BD97F2F14CDC2F300CC4B91 /* PPC-S.wav in Resources */,
 				7B8F3A4514D04CD700262D52 /* icon114.png in Resources */,
 				7B8F3A4714D04CDC00262D52 /* icon57.png in Resources */,
+				7B16914E157F78C30095BA5F /* g21.png in Resources */,
+				7B169150157F791D0095BA5F /* 21.png in Resources */,
+				7B26F7D6158101740025EB34 /* _PPC-Sample-21.pd in Resources */,
+				7BEB476715874A26006433DB /* _MainInBundle.pd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2090,12 +2102,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/ZBarSDK\"",
-					"\"$(SRCROOT)/Resources/ZBarSDK\"",
-					"\"$(SRCROOT)/TestFlightSDK0.8.2\"",
-					"\"$(SRCROOT)/Resources/Twitter/SAOAuthTwitterEngine\"",
-					"\"$(SRCROOT)/Resources/pd/Main/PD\"",
-					"\"$(SRCROOT)/Resources/Twitter+OAuth/SAOAuthTwitterEngine\"",
+					"\"$(SRCROOT)/ZBarSDK\"/**",
+					"\"$(SRCROOT)/Resources/ZBarSDK\"/**",
+					"\"$(SRCROOT)/TestFlightSDK0.8.2\"/**",
+					"\"$(SRCROOT)/Resources/Twitter/SAOAuthTwitterEngine\"/**",
+					"\"$(SRCROOT)/Resources/pd/Main/PD\"/**",
+					"\"$(SRCROOT)/Resources/Twitter+OAuth/SAOAuthTwitterEngine\"/**",
 				);
 				OTHER_CFLAGS = (
 					"-DPD",
@@ -2125,12 +2137,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/ZBarSDK\"",
-					"\"$(SRCROOT)/Resources/ZBarSDK\"",
-					"\"$(SRCROOT)/TestFlightSDK0.8.2\"",
-					"\"$(SRCROOT)/Resources/Twitter/SAOAuthTwitterEngine\"",
-					"\"$(SRCROOT)/Resources/pd/Main/PD\"",
-					"\"$(SRCROOT)/Resources/Twitter+OAuth/SAOAuthTwitterEngine\"",
+					"\"$(SRCROOT)/ZBarSDK\"/**",
+					"\"$(SRCROOT)/Resources/ZBarSDK\"/**",
+					"\"$(SRCROOT)/TestFlightSDK0.8.2\"/**",
+					"\"$(SRCROOT)/Resources/Twitter/SAOAuthTwitterEngine\"/**",
+					"\"$(SRCROOT)/Resources/pd/Main/PD\"/**",
+					"\"$(SRCROOT)/Resources/Twitter+OAuth/SAOAuthTwitterEngine\"/**",
 				);
 				OTHER_CFLAGS = (
 					"-DPD",
@@ -2176,12 +2188,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/ZBarSDK\"",
-					"\"$(SRCROOT)/Resources/ZBarSDK\"",
-					"\"$(SRCROOT)/TestFlightSDK0.8.2\"",
-					"\"$(SRCROOT)/Resources/Twitter/SAOAuthTwitterEngine\"",
-					"\"$(SRCROOT)/Resources/pd/Main/PD\"",
-					"\"$(SRCROOT)/Resources/Twitter+OAuth/SAOAuthTwitterEngine\"",
+					"\"$(SRCROOT)/ZBarSDK\"/**",
+					"\"$(SRCROOT)/Resources/ZBarSDK\"/**",
+					"\"$(SRCROOT)/TestFlightSDK0.8.2\"/**",
+					"\"$(SRCROOT)/Resources/Twitter/SAOAuthTwitterEngine\"/**",
+					"\"$(SRCROOT)/Resources/pd/Main/PD\"/**",
+					"\"$(SRCROOT)/Resources/Twitter+OAuth/SAOAuthTwitterEngine\"/**",
 				);
 				OTHER_CFLAGS = (
 					"-DPD",

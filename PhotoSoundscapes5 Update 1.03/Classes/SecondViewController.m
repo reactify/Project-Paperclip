@@ -13,11 +13,12 @@
 #import "TutorialViewController.h"
 #import "FirstViewControllerAppDelegate.h"
 
-#define kNumberOfPhotos 18
+#define kNumberOfPhotos 19
 
 static NSString *NameKey = @"nameKey";
 static NSString *ImageKey = @"imageKey";
 static NSString *DescriptionKey = @"descriptionKey";
+static NSString *AccessQR = @"accessQR";
 static NSString *AccessKey = @"accessKey";
 static NSString *UnlockedPhotoKey = @"photoUnlocked";
 
@@ -86,9 +87,12 @@ static NSString *UnlockedPhotoKey = @"photoUnlocked";
     int i = 0;
     // Populate the gallery
 	for (int j = 0; j < numberOfPagesToPopulate; j++) {
-
+        
+        i = j;
+        
         // If photoInfo.plist has 19 entries i.e. it's an old one, then we need to skip image 12 (Eye Of The Beholder)
-        if ([[PSCore core]contentArray].count == 19) {
+        /*
+         if ([[PSCore core]contentArray].count == 19) {
             if (j > 10) {
                 i = j+1;
                 NSLog(@"Old photoInfo.plist, so we're adding 1 to j - making it %i", i);
@@ -103,6 +107,7 @@ static NSString *UnlockedPhotoKey = @"photoUnlocked";
             i = j;
             specialOldPhotoInfoCase = NO;
         };
+         */
 		
         // For use later in the loop
         NSString *iAsString = [NSString stringWithFormat:@"%d", i];
@@ -158,7 +163,7 @@ static NSString *UnlockedPhotoKey = @"photoUnlocked";
         subviewButton.adjustsImageWhenHighlighted = NO;
         
         // Turn off user interaction by default - i.e. when the locks are on
-        subviewButton.userInteractionEnabled = NO;
+//        subviewButton.userInteractionEnabled = NO;
         
         // Assign the button to relevant method to call
         [subviewButton addTarget:self action:@selector(imageTouched:) forControlEvents:UIControlEventTouchUpInside];
@@ -460,16 +465,22 @@ static NSString *UnlockedPhotoKey = @"photoUnlocked";
 
 #pragma mark - QR code scanned
 
-- (void)checkQRCode:(NSNumber*)photoNumber{
+- (void)checkQRCode:(NSNumber*)qrCodeData{
     
-    int qrCodeData = [photoNumber intValue];
+    int qrCodeDataInt = [qrCodeData intValue];
     
 //    NSLog(@"Picked QR code data: %i", qrCodeData);
     
     // Check this QR code is at all in range...
-    if (qrCodeData >= 0 && qrCodeData < 19) {        
+    if (qrCodeDataInt >= 0 && qrCodeDataInt < 22) {        
         // Read the photoInfo.plist info for this QR code
-        numberItem = [[[PSCore core]contentArray] objectAtIndex:qrCodeData];
+        numberItem = [[[PSCore core]contentArray] objectAtIndex:qrCodeDataInt];
+        
+        photoNumber = [numberItem valueForKey:AccessQR];
+        int photoNumberInt = [photoNumber intValue];
+        int photoIndex = photoNumberInt-1;
+        
+        NSLog(@"Photo index = %i", photoIndex);
         
         NSNumber *accessTypeNumber = [numberItem valueForKey:AccessKey];
         
@@ -479,20 +490,20 @@ static NSString *UnlockedPhotoKey = @"photoUnlocked";
         switch (accessType) {
             case 0:
                 // Unlock it
-                [self goToPhotoDetail:photoNumber];
-                [self scrollToPosition:pickedQRCodeData];
+                [self goToPhotoDetail:[NSNumber numberWithInt:photoIndex]];
+                [self scrollToPosition:photoIndex];
                 [self unlockPhoto];
                 break;
             case 1:
                 // Unlock it
-                [self goToPhotoDetail:photoNumber];
-                [self scrollToPosition:pickedQRCodeData];
+                [self goToPhotoDetail:[NSNumber numberWithInt:photoIndex]];
+                [self scrollToPosition:photoIndex];
                 [self unlockPhoto];
                 break;
             case 2:
                 // Unlock it
-                [self goToPhotoDetail:photoNumber];
-                [self scrollToPosition:pickedQRCodeData];
+                [self goToPhotoDetail:[NSNumber numberWithInt:photoIndex]];
+                [self scrollToPosition:photoIndex];
                 [self unlockPhoto];
                 break;
             default:
@@ -546,7 +557,7 @@ static NSString *UnlockedPhotoKey = @"photoUnlocked";
     [self removeLock:pickedQRCodeData];
 }
 
-- (void)goToPhotoDetail:(NSNumber*)photoNumber2 {
+- (void)goToPhotoDetail:(NSNumber *)photoNumber2 {
     NSInteger photoNumber = [photoNumber2 intValue];
     
     [photoDetailViewController setImageTouched:photoNumber];

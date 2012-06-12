@@ -24,6 +24,7 @@
 	IBOutlet PhotoDetailViewController *photoDetailViewController;
     FirstViewController *firstViewController;
     int pickedQRCodeData;
+    NSNumber *photoNumber;
     BOOL photoUnlocked;
     int imageTouched;
     IBOutlet UIButton *scanButton;
@@ -46,7 +47,7 @@
 - (IBAction)imageTouched:(UIButton*)sender;
 - (IBAction)scanButtonTapped;
 - (IBAction)scrollToPosition:(int)pageToScrollTo;
-- (void)goToPhotoDetail:(NSNumber*)photoNumber;
+- (void)goToPhotoDetail:(NSNumber *)photoNumber;
 - (void)removeLock:(int)iteration;
 - (void)populateGallery;
 - (void)fadeTheGalleryIn;
